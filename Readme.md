@@ -19,7 +19,7 @@ npm install datatables.net-buttons-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-buttons-zf' )( $ );
+require( 'datatables.net-buttons-zf' )( window, $ );
 ```
 
 ### bower

@@ -6,7 +6,8 @@
         "js/buttons.foundation.js",
         "css/buttons.foundation.css"
     ],
-    "main": "./js/buttons.foundation.js",
+    "main": "js/buttons.foundation.js",
+    "style": "css/buttons.foundation.css",
     "keywords": [
         "buttons",
         "excel",

@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-buttons-zf",
-    "version": "2.2.0",
+    "version": "1.3.0",
     "description": "Buttons for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "js/buttons.foundation.js",

@@ -1,5 +1,5 @@
 /*! Foundation integration for DataTables' Buttons
- * ©2016 SpryMedia Ltd - datatables.net/license
+ * ©2015 SpryMedia Ltd - datatables.net/license
  */
 
 (function( factory ){
@@ -49,9 +49,7 @@ var collection = DataTable.ext.foundationVersion === 6 ?
 		className: 'dt-button-collection f-dropdown open dropdown-pane is-open',
 		button: {
 			tag: 'li',
-			className: 'small',
-			active: 'active',
-			disabled: 'disabled'
+			className: 'small'
 		},
 		buttonLiner: {
 			tag: 'a'

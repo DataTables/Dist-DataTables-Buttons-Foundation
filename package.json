@@ -3,8 +3,8 @@
     "version": "1.4.1",
     "description": "Buttons for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
-        "js/buttons.foundation.js",
-        "css/buttons.foundation.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "main": "js/buttons.foundation.js",
     "style": "css/buttons.foundation.css",

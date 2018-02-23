@@ -117,6 +117,9 @@ ul.dt-button-collection.f-dropdown.four-column {
   -o-column-count: 4;
   column-count: 4;
 }
+ul.dt-button-collection.f-dropdown .dt-button {
+  border-radius: 0;
+}
 ul.dt-button-collection.f-dropdown.fixed {
   max-width: none;
 }

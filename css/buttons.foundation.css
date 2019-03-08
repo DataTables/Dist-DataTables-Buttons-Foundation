@@ -58,6 +58,10 @@ div.dt-button-collection-title {
   font-size: 0.9em;
 }
 
+div.dt-button-collection-title:empty {
+  display: none;
+}
+
 ul.dt-buttons li {
   margin: 0;
 }

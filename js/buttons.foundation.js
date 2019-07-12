@@ -49,9 +49,7 @@ var collection = DataTable.ext.foundationVersion === 6 ?
 		className: 'dt-button-collection f-dropdown open dropdown-pane is-open',
 		button: {
 			tag: 'li',
-			className: 'small',
-			active: 'active',
-			disabled: 'disabled'
+			className: 'small'
 		},
 		buttonLiner: {
 			tag: 'a'
@@ -70,8 +68,7 @@ $.extend( true, DataTable.Buttons.defaults, {
 		},
 		button: {
 			tag: 'a',
-			className: 'button small',
-			active: 'secondary'
+			className: 'button small'
 		},
 		buttonLiner: {
 			tag: null

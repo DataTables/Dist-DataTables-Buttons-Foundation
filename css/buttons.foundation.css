@@ -103,6 +103,8 @@ ul.dt-button-collection.f-dropdown > * {
 ul.dt-button-collection.f-dropdown.two-column {
   width: 300px;
   padding-bottom: 1px;
+}
+ul.dt-button-collection.f-dropdown.two-column div.dt-button-collection-liner {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   -ms-column-count: 2;
@@ -112,6 +114,8 @@ ul.dt-button-collection.f-dropdown.two-column {
 ul.dt-button-collection.f-dropdown.three-column {
   width: 450px;
   padding-bottom: 1px;
+}
+ul.dt-button-collection.f-dropdown.three-column div.dt-button-collection-liner {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   -ms-column-count: 3;
@@ -121,6 +125,8 @@ ul.dt-button-collection.f-dropdown.three-column {
 ul.dt-button-collection.f-dropdown.four-column {
   width: 600px;
   padding-bottom: 1px;
+}
+ul.dt-button-collection.f-dropdown.four-column div.dt-button-collection-liner {
   -webkit-column-count: 4;
   -moz-column-count: 4;
   -ms-column-count: 4;

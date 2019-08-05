@@ -73,13 +73,6 @@ ul.dt-buttons.button-group a {
   margin-bottom: 0;
 }
 
-ul.dt-button-collection.f-dropdown {
-  -webkit-column-gap: 8px;
-  -moz-column-gap: 8px;
-  -ms-column-gap: 8px;
-  -o-column-gap: 8px;
-  column-gap: 8px;
-}
 ul.dt-button-collection.f-dropdown.fixed {
   position: fixed;
   top: 50%;
@@ -96,15 +89,21 @@ ul.dt-button-collection.f-dropdown.fixed.three-column {
 ul.dt-button-collection.f-dropdown.fixed.four-column {
   margin-left: -300px;
 }
-ul.dt-button-collection.f-dropdown > * {
+ul.dt-button-collection.f-dropdown > div:last-child {
+  -webkit-column-gap: 8px;
+  -moz-column-gap: 8px;
+  -ms-column-gap: 8px;
+  -o-column-gap: 8px;
+  column-gap: 8px;
+}
+ul.dt-button-collection.f-dropdown > div:last-child > * {
   -webkit-column-break-inside: avoid;
   break-inside: avoid;
 }
-ul.dt-button-collection.f-dropdown > div.dt-button-collection-title {
-  column-span: all;
-}
 ul.dt-button-collection.f-dropdown.two-column {
   width: 300px;
+}
+ul.dt-button-collection.f-dropdown.two-column > div:last-child {
   padding-bottom: 1px;
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -114,6 +113,8 @@ ul.dt-button-collection.f-dropdown.two-column {
 }
 ul.dt-button-collection.f-dropdown.three-column {
   width: 450px;
+}
+ul.dt-button-collection.f-dropdown.three-column > div:last-child {
   padding-bottom: 1px;
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -123,6 +124,8 @@ ul.dt-button-collection.f-dropdown.three-column {
 }
 ul.dt-button-collection.f-dropdown.four-column {
   width: 600px;
+}
+ul.dt-button-collection.f-dropdown.four-column > div:last-child {
   padding-bottom: 1px;
   -webkit-column-count: 4;
   -moz-column-count: 4;

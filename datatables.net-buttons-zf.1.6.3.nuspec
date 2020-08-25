@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>datatables.net-buttons-zf</id>
+        <version>1.6.3</version>
+        <description>Buttons for DataTables</description>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>buttons DataTables jQuery table Foundation</tags>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Buttons-Foundation.git"/>
+        <dependencies>
+            <dependency id="jquery" version="1.7.0"/>
+            <dependency id="datatables.net" version="1.10.15"/>
+            <dependency id="datatables.net-buttons" version="1.6.3"/>
+            <dependency id="foundation" version="5.0.0"/>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js/buttons.foundation.js"/>
+        <file src="js/buttons.foundation.min.js"/>
+        <file src="css/buttons.foundation.css"/>
+        <file src="css/buttons.foundation.min.css"/>
+    </files>
+</package>

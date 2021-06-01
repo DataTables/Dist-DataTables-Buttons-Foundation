@@ -3,6 +3,7 @@
     "description": "Buttons for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/buttons.foundation.js",
     "style": "css/buttons.foundation.css",
+    "types": "./types/buttons.foundation.d.ts",
     "version": "1.7.0",
     "files": [
         "css/**/*.css",

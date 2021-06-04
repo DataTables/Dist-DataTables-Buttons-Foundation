@@ -4,7 +4,7 @@
     "main": "js/buttons.foundation.js",
     "style": "css/buttons.foundation.css",
     "types": "./types/buttons.foundation.d.ts",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
@@ -26,7 +26,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-zf": "^1.10.15",
-        "datatables.net-buttons": "1.7.0"
+        "datatables.net-buttons": "1.7.1"
     },
     "moduleType": [
         "globals",

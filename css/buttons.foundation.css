@@ -260,3 +260,13 @@ div.dt-buttons a.button.processing:after {
   -webkit-animation: dtb-spinner 1500ms infinite linear;
   -moz-animation: dtb-spinner 1500ms infinite linear;
 }
+
+div.dt-btn-split-wrapper:active:not(.disabled) button.dt-btn-split-drop, div.dt-btn-split-wrapper.secondary:not(.disabled) button.dt-btn-split-drop {
+  box-shadow: none;
+  background-color: #1779ba;
+  border-color: transparent;
+}
+div.dt-btn-split-wrapper:active:not(.disabled) button.dt-btn-split-drop:hover, div.dt-btn-split-wrapper.secondary:not(.disabled) button.dt-btn-split-drop:hover {
+  background-color: #14679e;
+  border-color: transparent;
+}

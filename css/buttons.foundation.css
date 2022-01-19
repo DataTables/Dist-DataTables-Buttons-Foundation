@@ -251,9 +251,18 @@ div.dt-button-collection.columns.dtb-b1 .dt-button {
 }
 div.dt-button-collection.fixed {
   max-width: none;
+  border: 1px solid #cacaca;
+  padding: 0.5rem;
 }
-div.dt-button-collection.fixed:before, div.dt-button-collection.fixed:after {
-  display: none;
+div.dt-button-collection.fixed .button-group.stacked {
+  position: relative;
+  flex-direction: row;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+div.dt-button-collection.fixed .dt-button {
+  flex-basis: 200px;
 }
 div.dt-button-collection div.dt-btn-split-wrapper a.button {
   flex-grow: 1;

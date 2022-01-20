@@ -126,9 +126,14 @@ ul.dt-buttons.button-group a {
 div.dt-button-collection {
   position: absolute;
   z-index: 2002;
+  max-width: none;
+  border: 1px solid #cacaca;
+  padding: 0.5rem;
+  background-color: white;
 }
 div.dt-button-collection.fixed {
   position: fixed;
+  display: block;
   top: 50%;
   left: 50%;
   margin-left: -75px;
@@ -249,19 +254,17 @@ div.dt-button-collection.columns.dtb-b1 .dt-button {
     width: 200px;
   }
 }
-div.dt-button-collection.fixed {
-  max-width: none;
-  border: 1px solid #cacaca;
-  padding: 0.5rem;
-}
-div.dt-button-collection.fixed .button-group.stacked {
+div.dt-button-collection .button-group.stacked {
   position: relative;
-  flex-direction: row;
   border: none;
   padding: 0;
   margin: 0;
 }
-div.dt-button-collection.fixed .dt-button {
+div.dt-button-collection.columns .button-group.stacked {
+  flex-direction: row;
+  padding: 0;
+}
+div.dt-button-collection.columns .dt-button {
   flex-basis: 200px;
 }
 div.dt-button-collection div.dt-btn-split-wrapper a.button {

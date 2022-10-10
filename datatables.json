@@ -1,7 +1,9 @@
 {
     "js": [
         "js/buttons.foundation.js",
-        "js/buttons.foundation.min.js"
+        "js/buttons.foundation.min.js",
+        "js/buttons.foundation.min.mjs",
+        "js/buttons.foundation.mjs"
     ],
     "css": [
         "css/buttons.foundation.css",
@@ -11,6 +13,5 @@
         "types/buttons.foundation.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/Buttons",
-    "last-tag": "2.2.2",
-    "last-sync": "7ec8b48bfc3b566498528975a137a134b3b1f559"
+    "last-tag": "2.2.3"
 }

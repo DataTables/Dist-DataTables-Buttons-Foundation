@@ -2,12 +2,14 @@
     "name": "datatables.net-buttons-zf",
     "description": "Buttons for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/buttons.foundation.js",
+    "module": "js/buttons.foundation.mjs",
     "style": "css/buttons.foundation.css",
     "types": "./types/buttons.foundation.d.ts",
     "version": "2.2.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [

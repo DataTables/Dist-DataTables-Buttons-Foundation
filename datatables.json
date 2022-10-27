@@ -10,7 +10,8 @@
         "css/buttons.foundation.min.css"
     ],
     "types": [
-        "types/buttons.foundation.d.ts"
+        "types/buttons.foundation.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/Buttons",
     "last-tag": "2.2.3"

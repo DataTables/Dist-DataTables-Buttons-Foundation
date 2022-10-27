@@ -4,7 +4,7 @@
     "main": "js/buttons.foundation.js",
     "module": "js/buttons.foundation.mjs",
     "style": "css/buttons.foundation.css",
-    "types": "./types/buttons.foundation.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.2.3",
     "files": [
         "css/**/*.css",

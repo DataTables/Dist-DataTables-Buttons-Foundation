@@ -1,4 +1,3 @@
-
 /*! Foundation integration for DataTables' Buttons
  * ©2016 SpryMedia Ltd - datatables.net/license
  */

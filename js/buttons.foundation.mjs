@@ -1,11 +1,10 @@
-
 /*! Foundation integration for DataTables' Buttons
  * ©2016 SpryMedia Ltd - datatables.net/license
  */
 
 import $ from 'jquery';
 import DataTable from 'datatables.net-zf';
-import DataTable from 'datatables.net-buttons';
+import 'datatables.net-buttons';
 
 
 

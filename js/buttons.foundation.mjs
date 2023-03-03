@@ -7,7 +7,6 @@ import DataTable from 'datatables.net-zf';
 import Buttons from 'datatables.net-buttons';
 
 
-
 // F6 has different requirements for the dropdown button set. We can use the
 // Foundation version found by DataTables in order to support both F5 and F6 in
 // the same file, but not that this requires DataTables 1.10.11+ for F6 support.

@@ -28,6 +28,7 @@ $.extend( true, DataTable.Buttons.defaults, {
 			button: {
 				tag: 'li',
 				className: '',
+				active: 'dt-button-active-a',
 				liner: {
 					tag: 'a'
 				}

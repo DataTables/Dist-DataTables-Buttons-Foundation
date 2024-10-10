@@ -182,6 +182,9 @@ div.dt-buttons.button-group div.dt-button-split {
 div.dt-buttons.button-group div.dt-button-split > button:last-child {
   margin-right: 1px;
 }
+div.dt-buttons.button-group div.dt-button-split a.dt-button {
+  margin-right: 0;
+}
 div.dt-buttons.button-group div.dt-button-split li {
   overflow: hidden;
   white-space: nowrap;
@@ -197,6 +200,14 @@ div.dt-buttons.button-group div.dt-button-collection {
   z-index: 2002;
   border: 1px solid #cacaca;
   background: #fefefe;
+}
+div.dt-buttons.button-group div.dt-button-collection li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.dt-buttons.button-group div.dt-button-collection li .dt-button-down-arrow {
+  width: 24px;
 }
 div.dt-buttons.button-group div.dt-button-collection .dropdown.menu {
   position: relative;
@@ -224,6 +235,7 @@ div.dt-buttons.button-group div.dt-button-collection div.dt-button-split > *:fir
   min-width: auto;
   flex: 1 0 50px;
   padding-right: 0;
+  margin-right: 0;
 }
 div.dt-buttons.button-group div.dt-button-collection div.dt-button-split > *:last-child {
   min-width: 33px;

@@ -65,9 +65,6 @@ $.extend(true, DataTable.Buttons.defaults, {
 			active: 'secondary active'
 		},
 		collection: {
-			action: {
-				dropHtml: ''
-			},
 			button: {
 				tag: 'li',
 				className: 'dt-button',
@@ -92,8 +89,7 @@ $.extend(true, DataTable.Buttons.defaults, {
 			},
 			dropdown: {
 				tag: 'button',
-				className: 'button dropdown arrow-only',
-				dropHtml: ''
+				className: 'button arrow-only'
 			},
 			wrapper: {
 				tag: 'div',
@@ -102,8 +98,6 @@ $.extend(true, DataTable.Buttons.defaults, {
 		}
 	}
 });
-
-DataTable.ext.buttons.collection.className = 'dropdown';
 
 $(document).on('buttons-popover.dt', function () {
 	var notButton = false;

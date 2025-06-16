@@ -216,6 +216,9 @@ div.dt-button-collection .dropdown.menu {
 div.dt-button-collection .dropdown.menu .dt-button {
   position: relative;
 }
+div.dt-button-collection .dropdown.menu .dt-button a:focus {
+  outline-offset: -2px;
+}
 div.dt-button-collection div.dt-button-collection-title {
   padding: 1em 0.75em 0.5em;
 }

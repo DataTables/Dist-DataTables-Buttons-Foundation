@@ -1,16 +1,15 @@
-/*! Foundation integration for DataTables' Buttons
- * © SpryMedia Ltd - datatables.net/license
+/*! Buttons Foundation styling 4.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-zf';
 import Buttons from 'datatables.net-buttons';
 
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
+var Dom = DataTable.Dom;
+var util = DataTable.util;
 
-$.extend(true, DataTable.Buttons.defaults, {
+util.object.assignDeep(DataTable.Buttons.defaults, {
 	dom: {
 		container: {
 			tag: 'div',
@@ -56,17 +55,20 @@ $.extend(true, DataTable.Buttons.defaults, {
 	}
 });
 
-$(document).on('buttons-popover.dt', function () {
+Dom.s(document).on('buttons-popover.dt', function () {
 	var notButton = false;
-	$('.dtsp-panesContainer').each(function () {
-		if (!$(this).is('button')) {
+
+	Dom.s('.dtsp-panesContainer').each(function (el) {
+		if (!Dom.s(el).is('button')) {
 			notButton = true;
 		}
 	});
+
 	if (notButton) {
-		$('.dtsp-panesContainer').removeClass('button-group stacked');
+		Dom.s('.dtsp-panesContainer').classRemove('button-group stacked');
 	}
 });
 
 
 export default DataTable;
+

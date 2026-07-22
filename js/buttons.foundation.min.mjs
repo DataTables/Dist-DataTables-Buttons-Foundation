@@ -1,4 +1,4 @@
-/*! Buttons Foundation styling 4.0.0-beta.1 for DataTables
+/*! Buttons Foundation styling 4.0.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 import DataTable from"datatables.net-zf";import Buttons from"datatables.net-buttons";var Dom=DataTable.Dom,util=DataTable.util;util.object.assignDeep(DataTable.Buttons.defaults,{dom:{container:{tag:"div",className:"dt-buttons button-group"},button:{tag:"a",className:"dt-button button small",active:"secondary active"},collection:{button:{tag:"li",className:"dt-button",active:"dt-button-active-a",liner:{tag:"a"}},container:{tag:"div",className:"dt-button-collection",content:{tag:"ul",className:"dropdown menu is-dropdown-submenu"}}},split:{action:{tag:"button",className:"button small"},dropdown:{tag:"button",className:"button arrow-only"},wrapper:{tag:"div",className:"button-group dt-button-split"}}}}),Dom.s(document).on("buttons-popover.dt",function(){var a=!1;Dom.s(".dtsp-panesContainer").each(function(t){Dom.s(t).is("button")||(a=!0)}),a&&Dom.s(".dtsp-panesContainer").classRemove("button-group stacked")});export default DataTable;

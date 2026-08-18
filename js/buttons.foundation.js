@@ -1,4 +1,4 @@
-/*! Buttons Foundation styling 4.0.1 for DataTables
+/*! Buttons Foundation styling 4.0.2 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 

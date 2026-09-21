@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-buttons-zf",
     "description": "Buttons for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/buttons.foundation.js",
-    "module": "js/buttons.foundation.mjs",
-    "style": "css/buttons.foundation.css",
+    "main": "./js/buttons.foundation.js",
+    "module": "./js/buttons.foundation.mjs",
+    "style": "./css/buttons.foundation.css",
     "types": "./types/buttons.foundation.d.ts",
     "version": "4.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Buttons",
@@ -39,5 +38,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Buttons.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/buttons.foundation.d.ts",
+            "import": "./js/buttons.foundation.mjs",
+            "default": "./js/buttons.foundation.mjs",
+            "require": "./js/buttons.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/buttons.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-buttons-zf",
-    "description": "Buttons for DataTables with styling for [Foundation](https://get.foundation/)",
+    "description": "Buttons for DataTables with styling for Foundation",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-Buttons-Foundation"

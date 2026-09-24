@@ -42,9 +42,10 @@
     "exports": {
         ".": {
             "types": "./types/buttons.foundation.d.ts",
+            "style": "./css/buttons.foundation.css",
             "import": "./js/buttons.foundation.mjs",
-            "default": "./js/buttons.foundation.mjs",
-            "require": "./js/buttons.foundation.js"
+            "require": "./js/buttons.foundation.js",
+            "default": "./js/buttons.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
